@@ -40,7 +40,7 @@ css = """
 <style>
 body {
     font-family: Arial, sans-serif;
-    background: url('https://media.istockphoto.com/id/1400198696/photo/anonymous-ethnic-lady-floating-on-rubber-ring-in-swimming-pool-and-reading-book.webp?b=1&s=170667a&w=0&k=20&c=eCxzS4nPpKH3qJhaex3L-_rgjnpUgyA-O5cZHAhc-Ms=') no-repeat center center fixed; 
+    background: url('https://a.cdn-hotels.com/gdcs/production138/d1824/ed0d5995-0902-43d1-9644-1aa7a1a27d81.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
