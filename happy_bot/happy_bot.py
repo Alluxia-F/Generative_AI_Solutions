@@ -40,9 +40,15 @@ css = """
 <style>
 body {
     font-family: Arial, sans-serif;
+    background: url('https://media.istockphoto.com/id/1400198696/photo/anonymous-ethnic-lady-floating-on-rubber-ring-in-swimming-pool-and-reading-book.webp?b=1&s=170667a&w=0&k=20&c=eCxzS4nPpKH3qJhaex3L-_rgjnpUgyA-O5cZHAhc-Ms=') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .label, .output-text {
     font-size: 18px;
+    color: white;  /* Change text color to be visible against the background image */
 }
 input[type=text] {
     font-size: 16px;
