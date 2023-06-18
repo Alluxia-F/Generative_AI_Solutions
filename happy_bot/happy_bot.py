@@ -40,15 +40,9 @@ css = """
 <style>
 body {
     font-family: Arial, sans-serif;
-    background: url('https://a.cdn-hotels.com/gdcs/production138/d1824/ed0d5995-0902-43d1-9644-1aa7a1a27d81.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 .label, .output-text {
     font-size: 18px;
-    color: white;  /* Change text color to be visible against the background image */
 }
 input[type=text] {
     font-size: 16px;
