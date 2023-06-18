@@ -36,11 +36,28 @@ def chat(user_input):
 inputs = gr.inputs.Textbox(label="User input")
 outputs = gr.outputs.Textbox(label="Response")
 
+css = """
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+.label, .output-text {
+    font-size: 18px;
+}
+input[type=text] {
+    font-size: 16px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+</style>
+"""
+
 gr.Interface(
     fn=chat,
     inputs=inputs,
     outputs=outputs,
-    title= "GigglyGizmo",
+    title="GigglyGizmo",
+    css=css,
 ).launch(share=True)
-
-
