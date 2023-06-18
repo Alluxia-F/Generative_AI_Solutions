@@ -39,17 +39,22 @@ outputs = gr.outputs.Textbox(label="Response")
 css = """
 <style>
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    color: #f2f2f2; /* White-ish color for general text */
+    background-color: #0d253f; /* Dark blue for the background */
 }
 .label, .output-text {
     font-size: 18px;
+    color: #ffd700; /* Gold color for labels and output text */
 }
 input[type=text] {
     font-size: 16px;
     width: 300px;
     height: 50px;
-    border: 1px solid #ccc;
+    border: 2px solid #ffd700; /* Border color same as text */
     border-radius: 4px;
+    background-color: #0d253f; /* Input box same color as body background */
+    color: #f2f2f2; /* Input text color */
 }
 </style>
 """
