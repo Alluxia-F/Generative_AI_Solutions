@@ -43,6 +43,11 @@ body {
     color: #f2f2f2; /* White-ish color for general text */
     background-color: #0d253f; /* Dark blue for the background */
 }
+h1 {
+    color: #ff6347; /* Tomato color for the title */
+    font-family: 'Courier New', Courier, monospace; /* Font family for the title */
+    text-shadow: 2px 2px #000000; /* Shadow effect for the title */
+}
 .label, .output-text {
     font-size: 18px;
     color: #ffd700; /* Gold color for labels and output text */
