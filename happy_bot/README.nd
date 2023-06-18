@@ -1,0 +1,5 @@
+1. Install openai: pip3 install openai
+2. Install Gradio: pip3 install Gradio
+3. Run: 
+        python happy_bot.py
+4.
