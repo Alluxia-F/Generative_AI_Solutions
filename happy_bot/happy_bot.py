@@ -48,7 +48,8 @@ h1 {
     font-family: 'Courier New', Courier, monospace; /* Font family for the title */
     text-shadow: 2px 2px #000000; /* Shadow effect for the title */
 }
-.label, .output-text {
+.label, .output-text, input[type=text] {
+    font-family: 'Courier New', Courier, monospace; /* Same font family for labels, output text and input text */
     font-size: 18px;
     color: #ffd700; /* Gold color for labels and output text */
 }
