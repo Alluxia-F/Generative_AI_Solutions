@@ -25,7 +25,7 @@ def chat(user_input):
         model='gpt-4',
         messages=messages
     )
-    reply = response.choice[0].message.content
+    reply = response.choices[0].message.content
     messages.append({'role':'assistant','content':reply})
     return reply
 
@@ -39,6 +39,5 @@ gr.Interface(
     outputs=outputs,
     title= "Happy Bot",
 ).launch(share=True)
-
 
 
